@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def create_db():
     con = sqlite3.connect("enrollment.db")
     cur = con.cursor()
